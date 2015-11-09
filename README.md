@@ -42,13 +42,13 @@ Each component implements [Nayjest\Tree\ChildNodeInterface](https://github.com/N
 
 ##### 2. Rendering
 
-###### `ComponentInterface::render() : string`
+##### `ComponentInterface::render() : string`
 
 Renders component.
 
 
 
-###### `ComponentInterface::__toString() : string`
+##### `ComponentInterface::__toString() : string`
 
 Returns rendering result  when object is treated like a string, i.e. components can be used as variables containing strings:
 
